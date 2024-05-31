@@ -47,10 +47,10 @@ const View = () => {
                     />
                     <h3 className=' text-4xl mt-5'>{DataId.name}</h3>
                 </div>
-                <div className="ChartData w-[45%] m-auto">
+                <div className="ChartData w-[95%] md:w-[45%] m-auto">
                     <ChartData />
                 </div>
-                <div className="Details w-[45%] m-auto mt-5 flex flex-col items-center justify-center p-5">
+                <div className="Details w-[95%] md:w-[45%] m-auto mt-5 flex flex-col items-center justify-center p-5">
                     <div className="rank flex justify-between w-full border-b py-2 border-spacing-1">
                         <h3 className='text-[#535bf2]'>Rank</h3>
                         <p>{DataId?.market_data?.market_cap_rank}</p>

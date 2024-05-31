@@ -38,9 +38,9 @@ const GroupPrice = () => {
 
     return (
         <>
-            <div className="flex w-[70%] m-auto flex-col items-center justify-center mt-14">
+            <div className="flex w-[95%] md:w-[70%] m-auto flex-col items-center justify-center mt-14">
                 <div className="input w-full flex items-center">
-                    <label className="input w-[50%] m-auto relative" htmlFor="" >
+                    <label className="input w-[100%] m-auto relative" htmlFor="" >
                         <form action="" onSubmit={handleSearch}>
                             <input onChange={handleinput} className=' bg-[#eee] w-full h-16 m-auto rounded-xl px-3 text-black' type="search" name="" id="" placeholder='Search Crypto...' />
                             <input className='absolute bg-[#535bf2] h-14 top-1 w-28 rounded-xl right-1 text-xl cursor-pointer' type="submit" value="Search" />
