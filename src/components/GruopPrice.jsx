@@ -11,6 +11,7 @@ const GroupPrice = () => {
     const { products } = useContext(contextProducts);
     const [getInput, setgetInput] = useState('')
     const [Datafilters, setDatafilters] = useState()
+    
 
     const handleinput = (e) => {
         setgetInput(e.target.value)
